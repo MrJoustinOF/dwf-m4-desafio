@@ -1,0 +1,31 @@
+.hero-servicios {
+  text-align: left;
+  background: linear-gradient(
+    107.17deg,
+    #614385 29.35%,
+    rgba(81, 99, 149, 0.8) 78.73%
+  );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .hero-servicios {
+    background: #000;
+  }
+
+  .hero-welcome {
+    margin: 25px 0 25px 0;
+    text-align: center;
+  }
+
+  .portfolio-cards {
+    display: block;
+  }
+
+  .portfolio-card__p {
+    padding: 20px 0 20px 0;
+  }
+}

@@ -1,0 +1,68 @@
+.hero-portfolio {
+  text-align: left;
+  background: linear-gradient(
+    107.17deg,
+    #958c40 29.35%,
+    rgba(156, 0, 210, 0.8) 78.73%
+  );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.portfolio {
+  padding: 50px;
+  background: #000000;
+  color: #fff;
+}
+
+.portfolio-cards {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.portfolio-card {
+  text-align: center;
+}
+
+.portfolio-card__h2 {
+  padding-top: 20px;
+}
+
+.portfolio-card__p {
+  font-size: 16px;
+  padding: 20px 40px 20px 40px;
+}
+
+.portfolio-card__link {
+  color: #fc6f50;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0 100px 0;
+}
+
+.title {
+  font-size: 32px;
+  text-align: center;
+  margin: 50px 0 50px 0px;
+}
+
+@media (max-width: 768px) {
+  .hero-portfolio {
+    background: #000;
+  }
+
+  .hero-welcome {
+    margin: 25px 0 25px 0;
+    text-align: center;
+  }
+
+  .portfolio-cards {
+    display: block;
+  }
+
+  .portfolio-card__p {
+    padding: 20px 0 20px 0;
+  }
+}
